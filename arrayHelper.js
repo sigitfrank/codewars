@@ -1,6 +1,5 @@
 const numbers = [1, 2, 3, 4, 5];
 
-
 Array.prototype.square = function (){
     return this.map(number => number*number)
 }
